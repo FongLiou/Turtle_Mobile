@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85D190C02B286901002AEF5A /* Turtle_MobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D190BF2B286901002AEF5A /* Turtle_MobileApp.swift */; };
+		85D190C22B286901002AEF5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D190C12B286901002AEF5A /* ContentView.swift */; };
+		85D190C42B286905002AEF5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D190C32B286905002AEF5A /* Assets.xcassets */; };
+		85D190C72B286905002AEF5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D190C62B286905002AEF5A /* Preview Assets.xcassets */; };
+		85D190D12B286905002AEF5A /* Turtle_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D190D02B286905002AEF5A /* Turtle_MobileTests.swift */; };
+		85D190DB2B286905002AEF5A /* Turtle_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D190DA2B286905002AEF5A /* Turtle_MobileUITests.swift */; };
+		85D190DD2B286905002AEF5A /* Turtle_MobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D190DC2B286905002AEF5A /* Turtle_MobileUITestsLaunchTests.swift */; };
+		85D190EA2B286979002AEF5A /* function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D190E92B286979002AEF5A /* function.swift */; };
+		85D190EC2B2873E4002AEF5A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D190EB2B2873E4002AEF5A /* ViewModel.swift */; };
+		85D190EE2B287469002AEF5A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D190ED2B287469002AEF5A /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85D190CD2B286905002AEF5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85D190B42B286901002AEF5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85D190BB2B286901002AEF5A;
+			remoteInfo = Turtle_Mobile;
+		};
+		85D190D72B286905002AEF5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85D190B42B286901002AEF5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85D190BB2B286901002AEF5A;
+			remoteInfo = Turtle_Mobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85D190BC2B286901002AEF5A /* Turtle_Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turtle_Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D190BF2B286901002AEF5A /* Turtle_MobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turtle_MobileApp.swift; sourceTree = "<group>"; };
+		85D190C12B286901002AEF5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85D190C32B286905002AEF5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85D190C62B286905002AEF5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85D190CC2B286905002AEF5A /* Turtle_MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Turtle_MobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D190D02B286905002AEF5A /* Turtle_MobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turtle_MobileTests.swift; sourceTree = "<group>"; };
+		85D190D62B286905002AEF5A /* Turtle_MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Turtle_MobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D190DA2B286905002AEF5A /* Turtle_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turtle_MobileUITests.swift; sourceTree = "<group>"; };
+		85D190DC2B286905002AEF5A /* Turtle_MobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turtle_MobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85D190E92B286979002AEF5A /* function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = function.swift; sourceTree = "<group>"; };
+		85D190EB2B2873E4002AEF5A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		85D190ED2B287469002AEF5A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85D190B92B286901002AEF5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D190C92B286905002AEF5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D190D32B286905002AEF5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85D190B32B286901002AEF5A = {
+			isa = PBXGroup;
+			children = (
+				85D190BE2B286901002AEF5A /* Turtle_Mobile */,
+				85D190CF2B286905002AEF5A /* Turtle_MobileTests */,
+				85D190D92B286905002AEF5A /* Turtle_MobileUITests */,
+				85D190BD2B286901002AEF5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85D190BD2B286901002AEF5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85D190BC2B286901002AEF5A /* Turtle_Mobile.app */,
+				85D190CC2B286905002AEF5A /* Turtle_MobileTests.xctest */,
+				85D190D62B286905002AEF5A /* Turtle_MobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85D190BE2B286901002AEF5A /* Turtle_Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				85D190BF2B286901002AEF5A /* Turtle_MobileApp.swift */,
+				85D190C12B286901002AEF5A /* ContentView.swift */,
+				85D190C32B286905002AEF5A /* Assets.xcassets */,
+				85D190C52B286905002AEF5A /* Preview Content */,
+				85D190E92B286979002AEF5A /* function.swift */,
+				85D190EB2B2873E4002AEF5A /* ViewModel.swift */,
+				85D190ED2B287469002AEF5A /* Model.swift */,
+			);
+			path = Turtle_Mobile;
+			sourceTree = "<group>";
+		};
+		85D190C52B286905002AEF5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				85D190C62B286905002AEF5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85D190CF2B286905002AEF5A /* Turtle_MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				85D190D02B286905002AEF5A /* Turtle_MobileTests.swift */,
+			);
+			path = Turtle_MobileTests;
+			sourceTree = "<group>";
+		};
+		85D190D92B286905002AEF5A /* Turtle_MobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85D190DA2B286905002AEF5A /* Turtle_MobileUITests.swift */,
+				85D190DC2B286905002AEF5A /* Turtle_MobileUITestsLaunchTests.swift */,
+			);
+			path = Turtle_MobileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85D190BB2B286901002AEF5A /* Turtle_Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85D190E02B286905002AEF5A /* Build configuration list for PBXNativeTarget "Turtle_Mobile" */;
+			buildPhases = (
+				85D190B82B286901002AEF5A /* Sources */,
+				85D190B92B286901002AEF5A /* Frameworks */,
+				85D190BA2B286901002AEF5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Turtle_Mobile;
+			productName = Turtle_Mobile;
+			productReference = 85D190BC2B286901002AEF5A /* Turtle_Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85D190CB2B286905002AEF5A /* Turtle_MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85D190E32B286905002AEF5A /* Build configuration list for PBXNativeTarget "Turtle_MobileTests" */;
+			buildPhases = (
+				85D190C82B286905002AEF5A /* Sources */,
+				85D190C92B286905002AEF5A /* Frameworks */,
+				85D190CA2B286905002AEF5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85D190CE2B286905002AEF5A /* PBXTargetDependency */,
+			);
+			name = Turtle_MobileTests;
+			productName = Turtle_MobileTests;
+			productReference = 85D190CC2B286905002AEF5A /* Turtle_MobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85D190D52B286905002AEF5A /* Turtle_MobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85D190E62B286905002AEF5A /* Build configuration list for PBXNativeTarget "Turtle_MobileUITests" */;
+			buildPhases = (
+				85D190D22B286905002AEF5A /* Sources */,
+				85D190D32B286905002AEF5A /* Frameworks */,
+				85D190D42B286905002AEF5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85D190D82B286905002AEF5A /* PBXTargetDependency */,
+			);
+			name = Turtle_MobileUITests;
+			productName = Turtle_MobileUITests;
+			productReference = 85D190D62B286905002AEF5A /* Turtle_MobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85D190B42B286901002AEF5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					85D190BB2B286901002AEF5A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					85D190CB2B286905002AEF5A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 85D190BB2B286901002AEF5A;
+					};
+					85D190D52B286905002AEF5A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 85D190BB2B286901002AEF5A;
+					};
+				};
+			};
+			buildConfigurationList = 85D190B72B286901002AEF5A /* Build configuration list for PBXProject "Turtle_Mobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85D190B32B286901002AEF5A;
+			productRefGroup = 85D190BD2B286901002AEF5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85D190BB2B286901002AEF5A /* Turtle_Mobile */,
+				85D190CB2B286905002AEF5A /* Turtle_MobileTests */,
+				85D190D52B286905002AEF5A /* Turtle_MobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85D190BA2B286901002AEF5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D190C72B286905002AEF5A /* Preview Assets.xcassets in Resources */,
+				85D190C42B286905002AEF5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D190CA2B286905002AEF5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D190D42B286905002AEF5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85D190B82B286901002AEF5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D190EE2B287469002AEF5A /* Model.swift in Sources */,
+				85D190C22B286901002AEF5A /* ContentView.swift in Sources */,
+				85D190C02B286901002AEF5A /* Turtle_MobileApp.swift in Sources */,
+				85D190EC2B2873E4002AEF5A /* ViewModel.swift in Sources */,
+				85D190EA2B286979002AEF5A /* function.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D190C82B286905002AEF5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D190D12B286905002AEF5A /* Turtle_MobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D190D22B286905002AEF5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D190DD2B286905002AEF5A /* Turtle_MobileUITestsLaunchTests.swift in Sources */,
+				85D190DB2B286905002AEF5A /* Turtle_MobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85D190CE2B286905002AEF5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85D190BB2B286901002AEF5A /* Turtle_Mobile */;
+			targetProxy = 85D190CD2B286905002AEF5A /* PBXContainerItemProxy */;
+		};
+		85D190D82B286905002AEF5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85D190BB2B286901002AEF5A /* Turtle_Mobile */;
+			targetProxy = 85D190D72B286905002AEF5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		85D190DE2B286905002AEF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85D190DF2B286905002AEF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85D190E12B286905002AEF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Turtle_Mobile/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fong.Turtle-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85D190E22B286905002AEF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Turtle_Mobile/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fong.Turtle-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85D190E42B286905002AEF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fong.Turtle-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turtle_Mobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Turtle_Mobile";
+			};
+			name = Debug;
+		};
+		85D190E52B286905002AEF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fong.Turtle-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turtle_Mobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Turtle_Mobile";
+			};
+			name = Release;
+		};
+		85D190E72B286905002AEF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fong.Turtle-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Turtle_Mobile;
+			};
+			name = Debug;
+		};
+		85D190E82B286905002AEF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fong.Turtle-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Turtle_Mobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85D190B72B286901002AEF5A /* Build configuration list for PBXProject "Turtle_Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D190DE2B286905002AEF5A /* Debug */,
+				85D190DF2B286905002AEF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85D190E02B286905002AEF5A /* Build configuration list for PBXNativeTarget "Turtle_Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D190E12B286905002AEF5A /* Debug */,
+				85D190E22B286905002AEF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85D190E32B286905002AEF5A /* Build configuration list for PBXNativeTarget "Turtle_MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D190E42B286905002AEF5A /* Debug */,
+				85D190E52B286905002AEF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85D190E62B286905002AEF5A /* Build configuration list for PBXNativeTarget "Turtle_MobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D190E72B286905002AEF5A /* Debug */,
+				85D190E82B286905002AEF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85D190B42B286901002AEF5A /* Project object */;
+}
